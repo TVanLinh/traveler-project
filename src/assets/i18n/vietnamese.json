@@ -1,4 +1,10 @@
 {
+  "core": {
+    "signin": "Đăng nhập",
+    "signup": "Đăng kí",
+    "home": "Trang chủ",
+    "search": "tìm kiếm"
+  },
   "menus": {
     "one": "Cách thức hoạt động",
     "two": "An toàn",
@@ -45,7 +51,75 @@
       "nation": "quốc gia",
       "city": "thành phố",
       "word": "trên khắp thế giới.",
-      "findCity":"Tìm thành phố"
+      "findCity": "Tìm thành phố"
+    }
+  },
+  "how-work": {
+    "info": [
+      {
+        "title": "Cách thức hoạt động của KUN",
+        "description": "Tìm hiểu cách KUN hoạt động và vận hành dịch vụ"
+      },
+      {
+        "title": "Bắt đầu sử dụng",
+        "description": "Bạn đang tham quan một địa điểm nào đó. Muốn tìm hiểu rõ hơn về địa điểm đó. Hãy mở điện thoại và yêu cầu một hướng dẫn viên của bạn."
+      },
+      {
+        "title": "Chuyến đi ý nghĩa hơn",
+        "description": "Khi trở về sau chuyến đi, Thay vì nói về những vất vả, khó chịu gặp phải. Bạn sẽ có thêm sự hiểu biết về những địa điểm bạn đã đặt chân đến trong chuyến đi.Chia sẻ sự hiểu biết về chuyến đi với mọi người bạn gặp."
+      }
+    ],
+    "blocks": {
+      "title": "",
+      "contents": [
+        {
+          "title": "Yêu cầu",
+          "content": "Chỉ cần mang theo điện thoại thông minh bên mình, bạn có thể tìm thấy bất cứ dịch vụ nào của KUNvà ở bất kì đâu trên thế giới",
+          "promo": "Đặt dịch vụ với 1 nút nhấn",
+          "more": "Các dịch vụ cung cấp"
+        },
+        {
+          "title": "Thanh toán tiện lợi và an toàn",
+          "content": "Khi sử dụng dịch vụ, bạn có thể thanh toán bằng tiềng mặt hoặc chuyển qua thẻ. Bạn tự do lựa chọn hình thức thanh toán",
+          "promo": "Chấp nhận thanh toán các thẻ hiện hành",
+          "more": "Danh sách thẻ"
+        },
+        {
+          "title": "Mọi dịch vụ là dành cho bạn",
+          "content": "Bạn nhận xét và đánh giá, chúng tôi lắng nghe và sẽ cải thiện dịch vụ hàng ngày để tốt hơn",
+          "promo": "Luôn xếp hạng và đánh giá sau chuyến đi",
+          "more": "Cách sử dụng"
+        }
+      ]
+    },
+    "feature": {
+      "title": "Các tính năng khác",
+      "contents": [
+        {
+          "title": "Chia sẻ chuyến tham quan",
+          "content": "Chia sẻ chuyến tham quan với gia đình, người thân và bạn bè của bạn và chia sẻ những trải nghiệm thú vị của bạn trong chuyến tham quan với mọi người."
+        },
+        {
+          "title": "Ước tính chi phí",
+          "content": "Kiểm tra giá trước khi đặt chuyến. Cho phép bạn ước lượng chi phí cần phải trả cho chuyến tham quan."
+        },
+        {
+          "title": "Thêm bạn, thêm vui",
+          "content": "Bạn có thể chia sẻ và mời bạn bè cùng sử dụng KUN. Cả 2 cùng nhận những chuyến tham quan miễn phí trong tương lai. Cơ hội để tìm hiểu nhiều địa điểm hơn, mở rộng sự hiểu biết của bạn."
+        },
+        {
+          "title": "Chuyến đi an toàn",
+          "content": "Bạn luôn xem được các thông tin liên hệ cần thiết của hướng dẫn viên trong quá trình của chuyến tham quan."
+        }
+      ]
+    },
+    "question":{
+        "title":"Các câu hỏi thường gặp",
+        "contents":[
+          "Tôi có thể đặt chuyến tham quan không?",
+          "Tôi có cần thêm tiền tip cho hướng dẫn viên không?",
+          "Tôi muốn huỷ chuyến tham quan được không?"
+        ]
     }
   }
 }

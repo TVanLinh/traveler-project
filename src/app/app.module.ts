@@ -21,6 +21,9 @@ import {TaskSevice} from "./services/task.service";
 import {HttpModule} from "@angular/http";
 import {LanguageService} from "./services/language.service";
 import {I18nSelectPipe} from "@angular/common";
+import { FeatureComponent } from './pages/how-it-work/feature/feature.component';
+import {InforWorkComponent} from "app/pages/how-it-work/infor-work/infor-work.component";
+import {QuestionWorkComponent} from "./pages/how-it-work/question-work/question-work.component";
 
 @NgModule({
   declarations: [
@@ -39,6 +42,9 @@ import {I18nSelectPipe} from "@angular/common";
     TabServiceComponent,
     InforComponent,
     MapComponent,
+    FeatureComponent,
+    InforWorkComponent,
+    QuestionWorkComponent
   ],
   imports: [
     HttpModule,
