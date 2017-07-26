@@ -1,0 +1,76 @@
+<div class="col-xs-12">
+  <div class="introduce pdt-50">
+    <div class="title">{{inforItem?inforItem.title:''}}</div>
+    <div class="desc">{{inforItem?inforItem.description:''}}</div>
+  </div>
+</div>
+<!---->
+<div class="col-md-4 col-sm-4" *ngFor="let item of blocks;let i = index">
+  <div class="blocks">
+    <!-- First block-->
+    <div class="block-content">
+      <div class="block-title">{{item.title}}</div>
+      <div class="block-desc">{{item.content}}
+      </div>
+
+      <div class="block-promo">{{item.promo}}</div>
+      <div class="block-more text-right">{{item.more}}</div>
+    </div>
+    <div class="ro-img hidden-xs" *ngIf="i<blocks.length-1">
+      <img class="chevron_right" src="../../../assets/images/ic_chevron_right.png"/>
+    </div>
+  </div>
+</div>
+
+<!--<div class="col-md-4 col-sm-4">-->
+  <!--<div class="blocks">-->
+    <!--&lt;!&ndash; First block&ndash;&gt;-->
+    <!--<div class="block-content">-->
+      <!--<div class="block-title">Sử dụng dịch vụ dễ dàng nhất</div>-->
+      <!--<div class="block-desc">Chỉ cần mang theo điện thoại thông-->
+        <!--minh bên mình, bạn có thể tìm thấy bất cứ dịch vụ nào của KUN-->
+        <!--và ở bất kì đâu trên thế giới-->
+      <!--</div>-->
+
+      <!--<div class="block-promo">Đặt dịch vụ với 1 nút nhấn</div>-->
+      <!--<div class="block-more text-right">Các dịch vụ cung cấp</div>-->
+    <!--</div>-->
+    <!--<div class="ro-img hidden-xs">-->
+      <!--<img class="chevron_right" src="../../../assets/images/ic_chevron_right.png"/>-->
+    <!--</div>-->
+  <!--</div>-->
+<!--</div>-->
+
+<!--<div class="col-md-4 col-sm-4">-->
+  <!--<div class="blocks">-->
+    <!--<div class="block-content">-->
+      <!--<div class="block-title">Thanh toán tiện lợi và an toàn</div>-->
+      <!--<div class="block-desc">Khi sử dụng dịch vụ, bạn có thể-->
+        <!--thanh toán bằng tiềng mặt hoặc chuyển qua thẻ. Bạn tự do lựa-->
+        <!--chọn hình thức thanh toán-->
+      <!--</div>-->
+
+      <!--<div class="block-promo">Chấp nhận thanh toán các thẻ hiện hành-->
+      <!--</div>-->
+      <!--<div class="block-more text-right">Danh sách thẻ</div>-->
+    <!--</div>-->
+    <!--<div class="ro-img hidden-xs" style="top: 50%">-->
+      <!--<img class="chevron_right" src="../../../assets/images/ic_chevron_right.png"/>-->
+    <!--</div>-->
+  <!--</div>-->
+<!--</div>-->
+<!--&lt;!&ndash;&ndash;&gt;-->
+<!--<div class="col-md-4 col-sm-4">-->
+  <!--<div class="blocks">-->
+    <!--<div class="block-content">-->
+      <!--<div class="block-title">Mọi dịch vụ là dành cho bạn</div>-->
+      <!--<div class="block-desc">Bạn nhận xét và đánh giá, chúng-->
+        <!--tôi lắng nghe và sẽ cải thiện dịch vụ hàng ngày để tốt hơn-->
+      <!--</div>-->
+
+      <!--<div class="block-promo">Luôn xếp hạng và đánh giá sau chuyến đi-->
+      <!--</div>-->
+      <!--<div class="block-more text-right">Cách sử dụng</div>-->
+    <!--</div>-->
+  <!--</div>-->
+<!--</div>-->

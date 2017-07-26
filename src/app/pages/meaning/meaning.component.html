@@ -1,0 +1,62 @@
+<div class="container">
+  <div class="row">
+    <div app-slider-bar-one></div>
+    <div class="col-md-9 col-sm-9 col-xs-12">
+      <!---->
+      <div class="row">
+        <div class="col-md-8 col-xs-12 ">
+          <div class="title border-none pdt-20 fs-30" style="width: 100%">
+            <div>{{i18nMeanInfor.length>0?i18nMeanInfor[0].title:''}}</div>
+          </div>
+          <div class="desc">{{i18nMeanInfor.length>0?i18nMeanInfor[0].description:''}}</div>
+        </div>
+        <div class="col-md-4 hidden-xs hidden-sm text-center">
+          <a href="#"><img
+            style="width: 120px; height: 120px; margin-left:auto;margin-right:auto; margin-top: 20px"
+            src="../../../assets/images/ic_logo.png" alt="Logo"/></a>
+        </div>
+      </div>
+      <!---->
+      <div class="content" id="right">
+        <div class="body-content ">
+          <div class="row">
+            <!---->
+            <div class="col-xs-12">
+              <div class="feature pdb-20">
+                <div class="block-title">{{i18nMeanInfor.length>0?i18nMeanInfor[1].title:''}}</div>
+                <div class="block-desc">{{i18nMeanInfor.length>0?i18nMeanInfor[1].description:''}}</div>
+              </div>
+
+              <div class="feature pdb-20">
+                <div class="feature-title">{{i18nMeanWork.title}}</div>
+                <div class="feature-desc" *ngFor="let item of i18nMeanWork.contents;let i = index">
+                  <b>{{i+1}}.<span class="pdr-5"></span> {{item.title}}</b>
+                  {{item.content}}
+                </div>
+              </div>
+            </div>
+
+            <!---->
+            <div class="col-xs-12">
+              <div class="col-md-7 pdl-i-0 col-sm-7 pdt-20 " style="padding-left: 0;">
+                <div class="">
+                  <div class="title  border-none fs-30" style="width: 100%">{{i18nMeanInfor.length>0?i18nMeanInfor[2].title:''}}</div>
+                  <button class="btn-foot-signup btn-menu btn-action">{{i18nCore.signup}} </button>
+                </div>
+              </div>
+              <div class="col-md-5 pdl-i-0 co-sm-5 pdt-20 pdb-20" style="padding-left: 0;">
+                <div class="block-content" style="padding:0">
+                  <div class="block-title">{{i18nMeanInfor.length>0?i18nMeanInfor[3].title:''}}</div>
+                  <div class="block-desc">
+                    {{i18nMeanInfor.length>0?i18nMeanInfor[3].description:''}}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!---->
+    </div>
+  </div>
+</div>

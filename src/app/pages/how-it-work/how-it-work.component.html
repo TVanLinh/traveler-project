@@ -1,0 +1,52 @@
+<div class="container">
+  <div class="row">
+    <div app-slider-bar-one></div>
+    <div class="col-md-9 col-sm-9 col-xs-12">
+      <!---->
+      <div class="row">
+        <div class="col-md-8 col-xs-12 ">
+          <div class="title border-none pdt-20 fs-30" style="width: 100%">
+            <div>{{i18nInfor[0]?i18nInfor[0].title:''}}</div>
+          </div>
+          <div class="desc">{{i18nInfor[0]?i18nInfor[0].description:''}}</div>
+        </div>
+        <div class="col-md-4 hidden-xs hidden-sm text-center">
+          <a href="#"><img
+            style="width: 120px; height: 120px; margin-left:auto;margin-right:auto; margin-top: 20px"
+            src="../../../assets/images/ic_logo.png" alt="Logo"/></a>
+        </div>
+      </div>
+      <!---->
+      <div class="content" id="right">
+        <div class="body-content ">
+          <div class="row">
+            <!---->
+            <app-infor-work [i18nInfo]="i18nInfo"></app-infor-work>
+            <!---->
+            <app-feature [features]="i18nFeatures.contents" [title]="i18nFeatures.title"></app-feature>
+
+            <!---->
+            <app-question-work [question]="i18nQuestion.contents" [title]="i18nQuestion.title"></app-question-work>
+
+            <div class="col-xs-12">
+              <div class="col-md-8 pdl-i-0 col-sm-8 pdt-20 " style="padding-left: 0;">
+                <div class="">
+                  <div class="title  border-none fs-30" style="width: 100%">{{i18nInfor[1]?i18nInfor[1].title:''}}</div>
+                  <div class="desc">{{i18nInfor[1]?i18nInfor[1].description:''}}</div>
+                </div>
+              </div>
+              <div class="col-md-4 pdl-i-0 co-sm-4 pdt-20 pdb-20" style="padding-left: 0;">
+                <div class="block-content" style="padding:0">
+                  <div class="block-title">{{i18nInfor[2]?i18nInfor[2].title:''}}</div>
+                  <div class="block-desc">{{i18nInfor[2]?i18nInfor[2].description:''}}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!---->
+    </div>
+  </div>
+</div>

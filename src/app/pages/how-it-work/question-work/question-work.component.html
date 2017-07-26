@@ -1,0 +1,13 @@
+<div class="col-xs-12">
+  <div class="fqa">
+    <div class="title border-none fs-30">{{title}}</div>
+
+    <div>
+      <ul class="menu-item-list text-left" >
+        <li class="menu-item" *ngFor="let item of question;let i =index">
+          {{i+1}}.<span class="pdr-5"></span>{{item}}
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

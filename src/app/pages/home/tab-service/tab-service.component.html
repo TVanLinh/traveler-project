@@ -1,0 +1,88 @@
+
+<div class="body-content-root">
+  <div class="service top-40">
+    <div>
+      <div class="title">{{inforItem?inforItem.title:''}}</div>
+      <div class="text-center desc panel">
+        <div class="pull-left">{{inforItem?inforItem.description:''}}</div>
+        <div class="choose-place pull-right">
+          <form>
+            <div class="input-group search-place">
+              <input type="text" class="form-control" placeholder="Search"/>
+              <div class="input-group-btn">
+                <button class="btn btn-default" type="submit">
+                  <i class="glyphicon glyphicon-search"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="clear-fix"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="service-tab  panel ">
+    <div class="tab-title mgt--20">
+      <button class="tab-button t_onsite_guide here"
+              (click)="openTab('onsite_guide')">ON-SITE GUIDE
+      </button>
+      <button class="tab-button t_tour_guide"
+              (click)="openTab('tour_guide')">TOUR GUIDE
+      </button>
+      <button class="tab-button t_rent_a_moto"
+              (click)="openTab('rent_a_moto')">RENT A MOTO
+      </button>
+      <button class="tab-button t_local_service"
+              (click)="openTab('local_service')">LOCAL SERVICE
+      </button>
+    </div>
+
+
+    <div class="tab-body">
+      <div id="onsite_guide" class="tab">
+
+        <img src="../../../assets/images/img_inspire.jpg" width="100%" height="auto"/>
+
+        <p class="xxl-size pdt-15 pdb-5">Gọi nhanh hướng dẫn viên tại điểm</p>
+
+        <div style="display: inline-flex;">
+          <div style="display: inline-block; ; margin-right: 20px">
+            <button style="font-size: 10px"
+                    class=" btn-submit btn-signup">VĂN MIẾU-QUỐC TỬ GIÁM
+            </button>
+            <button style="font-size: 10px"
+                    class=" btn-submit btn-signup">ĐỀN NGỌC SƠN
+            </button>
+            <button style="font-size: 10px"
+                    class=" btn-submit btn-signup">HOÀNG THÀNH THĂNG LONG
+            </button>
+            <button style="font-size: 10px"
+                    class=" btn-submit btn-signup">BẢO TÀNG DÂN TỘC VN
+            </button>
+            <button style="font-size: 10px"
+                    class=" btn-submit btn-signup">CHÙA TRẤN QUỐC
+            </button>
+            <button style="font-size: 10px; color: darkorange"
+                    class=" btn-submit btn-signup">XEM 100+ ĐỊA DANH
+            </button>
+            <button
+              class=" btn-submit btn-menu pull-right">XEM CÁC ĐIỂM DU LỊCH Ở THÀNH PHỐ KHÁC
+            </button>
+          </div>
+
+        </div>
+      </div>
+      <div id="tour_guide" class="tab hide">
+        <p>Gọi hướng dẫn viên tham gia toàn chuyến du lịch Hà Nội
+          cùng bạn</p>
+      </div>
+      <div id="rent_a_moto" class="tab hide">
+        <p>Thuê một chiếc xe mô tô để khám phá Hà Nội</p>
+      </div>
+      <div id="local_service" class="tab hide">
+        <p>Các dịch vụ tại Hà Nội</p>
+      </div>
+    </div>
+  </div>
+</div>

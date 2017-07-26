@@ -1,0 +1,37 @@
+<div class="top-50 map">
+  <div class="pull-left">
+    <div class="title">{{mapItem.title}}</div>
+    <div class="row">
+      <div class="col-md-6 col-xs-12 pdb-20">
+        <div class="desc">{{mapItem.at}} <a
+          class="cursor-pointer text-underline color-blue">15 {{mapItem.nation}}</a> {{mapItem.and}} <a
+          class="cursor-pointer text-underline color-blue"> 30 {{mapItem.city}}</a>
+          {{mapItem.word}}
+        </div>
+        <div class="top-20">{{mapItem.add}} <a
+          class="cursor-pointer text-underline color-blue text-bold">Hà Nội</a></div>
+        <div class="top-20 pull-left">
+          <div class="choose-place pull-right">
+            <form>
+              <div class="input-group search-place search-city" >
+                <input type="text" class="form-control"  [placeholder]="mapItem.findCity"/>
+                <div class="input-group-btn">
+                  <button class="btn btn-default" type="submit">
+                    <i class="glyphicon glyphicon-search"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-xs-12">
+        <div id="map" style="width:400px;background:yellow"></div>
+         </div>
+
+    </div>
+
+  </div>
+
+</div>

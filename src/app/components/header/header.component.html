@@ -1,0 +1,31 @@
+<div>
+  <nav id="header" >
+    <div class="container">
+      <div class="col-xs-12">
+        <div class="nav-wrapper">
+          <div class="toggle-menu" (click)="toggleMenu()">
+            <span></span>
+          </div>
+          <div class="ro-left">
+            <a href="/"> <img src="../../../assets/images/ic_logo.png" /></a>
+          </div>
+          <div class="ro-right">
+            <a href="#" class="button-default mgr-10  button-menu upper-case">{{i18nCore.home}}</a>
+            <a href="#" class="button-default button-menu upper-case">{{i18nCore.signup}}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="menu-tab menu-default">
+    <ul>
+      <li><a routerLink="/how-it-work">{{"one" | i18nSelect: i18nMenu}}</a></li>
+      <li><a routerLink="/safety">{{"two" | i18nSelect: i18nMenu}}</a></li>
+      <li><a routerLink="/meanging">{{"three" | i18nSelect: i18nMenu}}</a></li>
+      <li><a routerLink="/cities">{{"four" | i18nSelect: i18nMenu}}</a></li>
+      <li><a routerLink="/help">{{"five" | i18nSelect: i18nMenu}}</a></li>
+      <li><a routerLink="/service">{{"six" | i18nSelect: i18nMenu}}</a></li>
+    </ul>
+  </div>
+</div>
+
