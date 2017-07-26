@@ -1,0 +1,138 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+div{
+    color: #000;
+}
+.title{
+    color: #000000;
+    border-color: #000000;
+}
+
+#left .pull-left {
+    float: none !important;
+}
+#left .navigation {
+    width: 100%;
+}
+#left .text{
+    text-align: center !important;
+}
+#right .body-content,#right .title {
+    width: 100%;
+}
+
+#right .block-content {
+    width: auto;
+}
+
+#right .blocks{
+    position: relative;
+}
+
+#right .blocks .ro-img{
+    position: absolute;
+    right: -30px;
+    margin-left: 15px;
+    top: 30%
+}
+
+#right .body-content-root {
+     width: auto;
+     padding:60px 0px 20px 0px;
+}
+
+.choose-place{
+    margin-top:10px;
+}
+
+#onsite_guide img{
+    max-height: 100%;
+}
+
+button.btn-submit.btn-menu.pull-right{
+    font-size: 10px;
+    line-height:20px;
+    height: auto !important;
+    /*width: 100%;*/
+    margin-right: 20px;
+}
+
+.input {
+    padding: 6px 15px 8px 8px;
+}
+.panel {
+    box-shadow: none;
+}
+
+@media (max-width: 1199px) {
+    .panel {
+        margin-bottom:0;
+        background-color: #fff;
+        border:none;
+        border-radius: 0;
+        margin-top:20px;
+    }
+    #left .text {
+        padding:0 !important;
+        margin:0 !important;
+    }
+    #left .menu-item-term {
+        padding-top: 10px;
+        border:none;
+    }
+    #right .body-content-root{
+        padding-top: 120px;
+    }
+}
+/*form--search*/
+.search-place{
+    width: 50%;
+    float: right;
+}
+.search-place input {
+    border-radius: 0;
+}
+.search-place button {
+    background-color: #0b7759;
+    color: #ffffff;
+    transition: 0.3s ease-in-out;
+    border-radius: 0;
+    border: 1px solid #0b7759;
+}
+.search-city{
+    float: left;
+    width: 50%;
+}
+@media (max-width: 991px) {
+
+}
+    @media (max-width: 767px) {
+    .choose-place {
+        float: left !important;
+        clear: both;
+    }
+    .tab-button{
+        font-size: 15px;
+    }
+    #right .body-content-root{
+        padding-top: 30px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    button.btn-submit.btn-signup{
+        width: 48%;
+        font-size: 10px !important;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .search-place{
+        width: 100%;
+    }
+}
+
+.choose-place .btn{
+    padding: 9px 12px;
+}
