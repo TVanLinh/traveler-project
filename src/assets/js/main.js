@@ -5,8 +5,9 @@
         });
     }
 
-    $(document).ready(function () {
+  $(document).ready(function () {
         toggleMenu();
+
     });
 
 })(jQuery);

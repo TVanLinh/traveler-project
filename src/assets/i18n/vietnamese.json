@@ -1,0 +1,51 @@
+{
+  "menus": {
+    "one": "Cách thức hoạt động",
+    "two": "An toàn",
+    "three": "Ý nghĩa",
+    "four": "Thành phố",
+    "five": "Trợ giúp",
+    "six": "Dịch vụ"
+  },
+  "home": {
+    "blocks": [
+      {
+        "title": "Sử dụng dịch vụ dễ dàng nhất",
+        "content": "Chỉ cần mang theo điện thoại thông minh bên mình, bạn có thể tìm thấy bất cứ dịch vụ nào của KUNvà ở bất kì đâu trên thế giới",
+        "promo": "Đặt dịch vụ với 1 nút nhấn",
+        "more": "Các dịch vụ cung cấp"
+      },
+      {
+        "title": "Thanh toán tiện lợi và an toàn",
+        "content": "Khi sử dụng dịch vụ, bạn có thể thanh toán bằng tiềng mặt hoặc chuyển qua thẻ. Bạn tự do lựa chọn hình thức thanh toán",
+        "promo": "Chấp nhận thanh toán các thẻ hiện hành",
+        "more": "Danh sách thẻ"
+      },
+      {
+        "title": "Mọi dịch vụ là dành cho bạn",
+        "content": "Bạn nhận xét và đánh giá, chúng tôi lắng nghe và sẽ cải thiện dịch vụ hàng ngày để tốt hơn",
+        "promo": "Luôn xếp hạng và đánh giá sau chuyến đi",
+        "more": "Cách sử dụng"
+      }
+    ],
+    "info": [
+      {
+        "title": "Luôn đồng hành với chuyến đi của bạn",
+        "description": "Cách để có trải nghiệm tốt nhất mỗi chuyến đi ở bất kì đâu."
+      },
+      {
+        "title": "Dịch vụ cung cấp",
+        "description": "Danh sách các dịch vụ cung cấp tại khu vực của bạn"
+      }
+    ],
+    "map": {
+      "title": "KUN có mặt ở đâu",
+      "at": "KUN đã có mặt tại",
+      "and": "và",
+      "nation": "quốc gia",
+      "city": "thành phố",
+      "word": "trên khắp thế giới.",
+      "findCity":"Tìm thành phố"
+    }
+  }
+}
