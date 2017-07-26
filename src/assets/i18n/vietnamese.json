@@ -121,5 +121,38 @@
           "Tôi muốn huỷ chuyến tham quan được không?"
         ]
     }
+  },
+  "meaning":{
+    "info": [
+      {
+        "title": "Chuyến tham quan ý nghĩa",
+        "description": "Hãy nói về những trải nghiệm ý nghĩa sau mỗi chuyến đi"
+      },
+      {
+        "title": "Sự cam kết",
+        "description": "KUN luôn làm hết sức mình đảm bảo chuyến đi của bạn có ý nghĩa nhất. Bạn sẽ tham quan và hiểu rõ nhất về những nơi bạn đã ghé thăm trong chuyến đi. Thay vì trờ về nhà và nói về những bực bội, khó chịu, bạn sẽ nói về những trải nghiệm, kỷ niệm và đặc biệt là sự hiểu biết về các điểm ghé thăm trong chuyến đi tốt đẹp vừa qua."
+      },
+      {
+        "title": "Bắt đầu sử dụng",
+        "description": ""
+      },
+      {
+        "title": "Chuyến đi ý nghĩa hơn",
+        "description": "Để mỗi chuyến đi của bạn mang đến những điều tốt đẹp hơn cho cuộc sống của bạn. Tích luỹ sự hiểu biết về nơi ghé thăm, lưu dấu kỷ niệm."
+      }
+    ],
+    "mean-work":{
+      "title":"Những điều nên làm trong chuyến đi",
+       "contents":[
+         {
+           "title":"Thái độ lịch sự trong chuyến đi: ",
+           "content": "Hướng dẫn viên là đối tác quan trọng của KUN. Họ có kinh nghiệm trong nghề nghiệp mà họ gắn bó. Hướng dẫn viên sẵn sàng giải đáp các thắc mắc của bạn. Hãy xem họ là người đồng hành cho chuyến tham quan của bạn và hành xử lịch sự khi họ đang làm việc."
+         },
+         {
+           "title":"Huy hiện của KUN: ",
+           "content": "Bạn luôn dễ dàng nhận ra các hướng dẫn viên là đối tác của KUN. Hướng dẫn viên sẽ mang huy hiệu mà KUN cung cấp. Chỉ những đối tác đang hợp tác cùng KUN mới nhận được huy hiệu này. Huy hiệu này sẽ đúng với huy hiệu bạn thấy trong hồ sợ hướng dẫn viên."
+         }
+       ]
+    }
   }
 }
